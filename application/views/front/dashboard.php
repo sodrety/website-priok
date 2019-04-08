@@ -1,15 +1,22 @@
 <?php
 $this->load->view('template/header');?>
-<section class="content-header">
-    <h1>
-        Cuti
-        <small>Permohonan Cuti</small>
-    </h1>
-    <ol class="breadcrumb">
-        <li><a href="#"><i class="fa fa-dashboard"></i> Home</a></li>
-        <li class="active">Cuti</li>
-    </ol>
-</section> 
+
+	
+
+	<div class="container">
+		<div class="row"> 
+			<div class="col-md-12">
+				<div class="col-md-6 col-sm-6 col-xs-6" style="border:1px solid #dddddd;">
+					<h1> Test </h1>
+				</div>
+
+				<div class="col-md-6 col-sm-6 col-xs-6" style="border:1px solid #dddddd;">
+					<h1> Test </h1>
+					
+				</div>
+			</div>
+		</div>
+	</div><br>
 <?php
 $this->load->view('template/footer'); 
 ?>

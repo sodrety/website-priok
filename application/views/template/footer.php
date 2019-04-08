@@ -1,10 +1,15 @@
 <!-- /.content-wrapper -->
 
-<footer class="main-footer">
-    <div class="pull-right hidden-xs">
-        <b>Version</b> 2.0
-    </div>
-    <strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved.
+<footer class="footer" style=" background:#f1f1f1;">
+    <div class="container">
+	    <div class="footer-main" style="padding:20px 10px 20px 10px">
+	    	<strong>Copyright &copy; 2014-2015 <a href="http://almsaeedstudio.com">Almsaeed Studio</a>.</strong> All rights reserved.
+		    <div class="pull-right hidden-xs">
+		        <b>Version</b> 2.0
+		    </div>
+		</div>
+	</div>
+    
 </footer>
 </div><!-- ./wrapper -->
 

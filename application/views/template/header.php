@@ -75,10 +75,19 @@
             .ticker li{
                 display:inline;
                 margin-left:50px;
+                color:#c31212;
             }
 
             #pengumuman{
-                background-color:red;
+                background-color:#f1f1f1;
+                height:50px;
+                padding:0px 20px 0px 20px;
+                font-weight:600;
+                color:#fff;
+            }
+
+            #pengumuman ul li a{
+                color:#fff;
             }
             
         </style>
@@ -89,55 +98,70 @@
     <div class="wrapper">
 
     <div class="bar" id="topb">
-        <div class="bar">
+        <div class="container" style="padding:10px;">
             <img src="<?php echo base_url('img/logo-bbkp.png')?>">
         </div>
     </div>
-    <div id="pengumuman">
-        Pengumuman
-        <ul class="ticker">
-            <li class="news-item"><a href="#">This is the 1st latest news item.</a></li>
-            <li class="news-item"><a href="#">This is the 2nd latest news item.</a></li>
-            <li class="news-item"><a href="#">This is the 3rd latest news item.</a></li>
-            <li class="news-item"><a href="#">This is the 4th latest news item.</a></li>
-        </ul>      
-    </div>
+    <div id="pengumuman" style="background:#02275d;">
+        <div class="container">
+            Pengumuman :
+            <ul class="ticker" >
+                <li class="news-item"><a href="#">This is the 1st latest news item.</a></li>
+                <li class="news-item"><a href="#">This is the 2nd latest news item.</a></li>
+                <li class="news-item"><a href="#">This is the 3rd latest news item.</a></li>
+                <li class="news-item"><a href="#">This is the 4th latest news item.</a></li>
+            </ul>     
+        </div> 
+        </div>
 
-    <nav class="navbar navbar-default">
-		<div class="container">
-		    <div class="navbar-header">
-		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-		        <span class="sr-only">Toggle navigation</span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		        <span class="icon-bar"></span>
-		      </button>
-		    </div> <!-- End of /.navbar-header -->
+        <nav class="navbar navbar-default" >
+            <div class="container">
+    		<div class="row">
+    		    <div class="navbar-header">
+    		      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+    		        <span class="sr-only">Toggle navigation</span>
+    		        <span class="icon-bar"></span>
+    		        <span class="icon-bar"></span>
+    		        <span class="icon-bar"></span>
+    		      </button>
+    		    </div> <!-- End of /.navbar-header -->
 
-		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-		      	<ul class="nav navbar-nav nav-main">
-		        	<li class="active"><a href="#">HOME</a></li>
-					<li><a href="products.html">SHOP</a></li>
-					<li><a href="blog.html">BLOG</a></li>
-					<li><a href="blog-single.html">ARTICLE</a></li>
-					<li class="dropdown">
-						<a href="#">
-							PAGES
-							<span class="caret"></span>
-						</a>
-						<ul class="dropdown-menu">
-						   <li><a  href="#">Action</a></li>
-						    <li><a  href="#">Another action</a></li>
-						    <li><a  href="#">Something else here</a></li>
-						    <li><a  href="#">Separated link</a></li>
-						</ul>
-					</li> <!-- End of /.dropdown -->
+    		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" >
+    		      	<ul class="nav navbar-nav nav-main" >
+    		        	<li class="active"><a href="#" >HOME</a></li>
+    					<li><a href="products.html">SHOP</a></li>
+    					<li><a href="blog.html">BLOG</a></li>
+    					<li><a href="blog-single.html">ARTICLE</a></li>
+    					<li class="dropdown " aria-labelledby="dropdownMenu2">
+    						<a href="#" class="dropdown-toggle" data-toggle="dropdown">PAGES<span class="caret " ></span></a>
+    						<ul class="dropdown-menu" data-toggle="dropdown">
+    						   <li><a  href="#">Action</a></li>
+    						    <li><a  href="#">Another action</a></li>
+    						    <li><a  href="#">Something else here</a></li>
+    						    <li><a  href="#">Separated link</a></li>
+    						</ul>
+    					</li> <!-- End of /.dropdown -->
 
-					
-		        </ul> <!-- End of /.nav-main -->
-		    </div>	<!-- /.navbar-collapse -->
+    					
+    		        </ul> <!-- End of /.nav-main -->
+    		    </div>	<!-- /.navbar-collapse -->
+            </div>  <!-- /.container-fluid -->
 		</div>	<!-- /.container-fluid -->
 	</nav>	<!-- End of /.nav -->
+    <section class="content-header" style="padding:0;">
+        <div class="container">
+            <ol class="breadcrumb" style="background:#fdb003;">
+                <li><a href="#" style="color:#fff;"><i class="fa fa-dashboard"></i> Home</a></li>
+                <li class="active" style="color:#fff;">Cuti</li>
+            </ol>
+
+            <h1>
+                Cuti
+                <small>Permohonan Cuti</small>
+            </h1>
+        </div>
+    </section>
+    
 
 <script type="text/javascript">
     $(function () {
